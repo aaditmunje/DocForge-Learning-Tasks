@@ -14,6 +14,13 @@ Task 2b was about implementing a logistic regression model. Logistic Regression 
 
 I learnt the differences between linear and logistic regression, as well as the 3 types of logistic reg. Instead of the line of best fit, we have a sigmoid function, which gives a probability between 0 and 1. I learned that Logistic Regression uses the sigmoid function to convert linear outputs into probabilities between 0 and 1. These probabilities are then converted into class labels using a threshold (typically 0.5).
 
+
+Task 2c helped with experimenting with linear regression. After importing the notebook and getting the table we were tasked with taking any 3 columns and training our own model. As much as ive understood there are like a few steps that need to be followed in order to do the task-
+Load dataset – Define X and y – Train_Test Split - Use your Linear Regression class – Predict – Evaluate (MSE)
+
+One completely new thing I learnt in 2c was the importance of the relationship between features. I also learned about multicollinearity, where one feature is a scalar multiple of another. This can cause instability in the model and make it difficult to interpret coefficients.
+
+
 An interesting learning was using log instead of MSE/RMSE. 
 
 I also learnt that in classification tasks, it's crucial to evaluate the performance of your model using classification metrics like accuracy, precision, recall, and F1 score.
